@@ -57,9 +57,3 @@
             region = "us-west-2"
         }
     ```
-
-## AWS EC2
-### EC2 with default network configuration
-
-### EC2 with custom network configuration
-
