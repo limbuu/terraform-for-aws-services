@@ -22,8 +22,8 @@ resource "aws_instance" "app_server" {
 }
 
 output "ip" {
- description = "These are the public Ip of EC2 instance"
- value = aws_instance.testInstance.public_ip
+  description = "These are the public Ip of EC2 instance"
+  value       = aws_instance.app_server.public_ip
 }
 
 
